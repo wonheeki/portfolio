@@ -350,6 +350,11 @@ li {
 	font-size: 9pt;
 }
 
+@media screen and (max-width: 1500px) {
+	.pj_content{
+		visibility: hidden;
+	}
+}
 @media screen and (max-width: 800px) {
 	#title {
 		font-size: 3.5rem;
@@ -363,6 +368,7 @@ li {
 	/* #menu_bar{
 		visibility: visible;
 	} */
+	
 }
 .slide_hr{
 	width:80%;
