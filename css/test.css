@@ -78,7 +78,7 @@ li {
 	height: 100%;
 	position: relative;
 	min-height: 100%;
-	padding-bottom: 60px;
+	padding-bottom: 6vw;
 	/* display: inline-block; */
 }
 
@@ -96,7 +96,7 @@ li {
 	position: absolute;
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 4.3rem;
+	font-size: 5vw;
 	text-align: right;
 	color: #fefefe;
 	width: 100%;
@@ -114,36 +114,36 @@ li {
 	position: absolute;
 	color: #fefefe;
 	left: 10%;
-	bottom: 5rem;
+	bottom: 8vw;
 	font-family: s-core3;
 	font-size: 8pt;
 }
 
 #contact_title {
-	font-size: 10pt;
+	font-size: 12pt;
 }
 
 #version {
 	position: absolute;
-	top: 5rem;
+	top: 8vw;
 	left: 11.5%;
 	font-size: 8pt;
 	display: inline-block;
 	font-family: s-core3;
-	margin-left: 0.5rem;
+	margin-left: 1vw;
 	color: #fefefe;
 }
 
 #fav_icon {
 	position: absolute;
 	width: 1.5rem;
-	top: 5rem;
-	left: 10%;
+    top: 8vw;
+    left: 10%;
 }
 
 #phrases {
 	position: absolute;
-	bottom: 5rem;
+	bottom: 8vw;
 	right: 10%;
 	color: #fefefe;
 	font-family: s-core3;
@@ -350,7 +350,7 @@ li {
 	font-size: 9pt;
 }
 
-@media screen and (max-width: 1500px) {
+/* @media screen and (max-width: 1500px) {
 	.pj_content{
 		visibility: hidden;
 	}
@@ -365,11 +365,11 @@ li {
 	#top_menu {
 		visibility: hidden;
 	}
-	/* #menu_bar{
+	#menu_bar{
 		visibility: visible;
-	} */
+	}
 	
-}
+} */
 .slide_hr{
 	width:80%;
 	background-color: #3f3f3f;
@@ -406,7 +406,7 @@ li {
 }
 
 .slideShow {
-	width: 45rem;
+	width: 47vw;
 	height: 30rem;
 	position: absolute;
 	/* margin: 0 auto; */
@@ -440,22 +440,24 @@ li {
 /* 첫 번째 슬라이드 가운데에 정렬하기위해
 첫번째 슬라이드만 margin-left조정 */
 .slides li:first-child {
-	margin-right: 15px;
+	margin-right: 1.5vw;
 }
 
 /* 슬라이드들 옆으로 정렬 */
 .slides li:not(:last-child){
 	float:left;
-	margin-right:15px;
+	margin-right:1.5vw;
 }
 .slides li {
 	float: left;
-	margin-right: 15px;
+	margin-right: 1.5vw;
 }
 
 .slides img {
-	width: 45rem;
-	height: 30rem;
+	/* width: 45rem;
+	height: 30rem; */
+	width: 47vw;
+    height: 30rem;
 	image-rendering: -webkit-optimize-contrast;
 	transform: translateZ(0);
 	backface-visibility: hidden;
@@ -507,7 +509,7 @@ li {
 
 .next {
     position: relative;
-	left: 21rem;
+	left: 17vw;
     float:left;
     width:30px;
     height:30px;
@@ -520,7 +522,7 @@ li {
 
 .next::after {
     position: absolute;
-    left: 21rem;
+    left: 26.5vw;
     content: '';
     width: 15px;
     height: 15px;
@@ -551,12 +553,12 @@ li {
 }
 
 .pj_content {
-	width: 38%;
+	width: 30vw;
 	height: 30rem;
 	right: 0;
 	position: absolute;
 	top:0;
-	font-size: 11pt;
+	font-size: 1vw;
     font-family: s-core4;
     color: #fefefe;
     text-align: left;
@@ -572,7 +574,7 @@ li {
 .pj_hd {
 	font-family: s-core4;
     color: #fefefe;
-    font-size: 11pt;
+    font-size: 1vw;
     margin-top: 0.5rem;
     width: 35%;
     float: left;
@@ -580,7 +582,7 @@ li {
 
 .pj_data {
 	font-family: s-core3;
-    font-size: 11pt;
+    font-size: 1vw;
     margin-top: 0.5rem;
     color: #fefefe;
     width: 65%;
