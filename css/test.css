@@ -864,7 +864,7 @@ li {
 	height: 390px;
 }
 #test3 {
-	height: 3020px;
+	height: 3210px;
 }
 
 #test4 {
@@ -887,7 +887,7 @@ li {
 }
 .slideBox {
 	width: 80%;
-    height: 43.5rem;
+    height: 46.5rem;
     position:relative;
 }
 
@@ -916,6 +916,10 @@ li {
 	overflow:hidden;
 	/* margin: 0 auto; */
 	/* margin-top: 50px; */
+}
+
+.slides{
+	height:15rem;
 }
 
 
@@ -969,7 +973,7 @@ li {
     height: auto;
     left: 0;
     position: absolute;
-    top: 82vw;
+    top: 19rem;
     font-size:9pt;
     font-weight:400;
 
@@ -979,11 +983,13 @@ li {
 .pj_hd {
     font-size:9pt;
     font-weight:400;
+    width:40%;
 }
 
 .pj_data {
 	font-size:9pt;
 	font-weight:400;
+	width:60%;
 }
 
 
