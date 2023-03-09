@@ -836,13 +836,13 @@ li {
 }
 
 .aboutme_hd {
-	font-size: 8pt;
+	font-size: 9pt;
 	font-weight:400;
 	margin-top: 0.5rem;
 }
 
 .aboutme_data {
-	font-size: 8pt;
+	font-size: 9pt;
 	font-weight:400;
 	margin-top: 0.5rem;
 }
@@ -970,19 +970,19 @@ li {
     left: 0;
     position: absolute;
     top: 82vw;
-    font-size:8pt;
+    font-size:9pt;
     font-weight:400;
 
 }
 
 
 .pj_hd {
-    font-size:8pt;
+    font-size:9pt;
     font-weight:400;
 }
 
 .pj_data {
-	font-size:8pt;
+	font-size:9pt;
 	font-weight:400;
 }
 
@@ -1005,7 +1005,7 @@ li {
     width: 100%;
     height: 12rem;
     margin-bottom: 25vw;
-    font-size:8pt;
+    font-size:9pt;
     font-weight:400;
 }
 
@@ -1022,7 +1022,7 @@ li {
 }
 
 .skill_content {
-    font-size: 8pt;
+    font-size: 9pt;
     font-weight:400;
 }
 
