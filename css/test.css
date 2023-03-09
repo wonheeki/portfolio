@@ -723,9 +723,6 @@ li {
 
 @media screen and (max-width: 800px) {
 
-.body{
-	font-weight: 400;
-}
 
 .main {
     height: 100vh;
@@ -821,6 +818,7 @@ li {
 	font-size:8pt;
 	left:12%;
 	margin-top:2rem;
+	font-weight:400;
 }
 #hash_ex_m{
 	display:none;
@@ -839,11 +837,13 @@ li {
 
 .aboutme_hd {
 	font-size: 8pt;
+	font-weight:400;
 	margin-top: 0.5rem;
 }
 
 .aboutme_data {
 	font-size: 8pt;
+	font-weight:400;
 	margin-top: 0.5rem;
 }
 
@@ -956,10 +956,12 @@ li {
 
 .pj_title {
 	font-size: 10pt;
+	font-weight:400;
 }
 
 .pj_date {
 	font-size: 8pt;
+	font-weight:400;
 }
 
 .pj_content {
@@ -969,16 +971,19 @@ li {
     position: absolute;
     top: 82vw;
     font-size:8pt;
+    font-weight:400;
 
 }
 
 
 .pj_hd {
     font-size:8pt;
+    font-weight:400;
 }
 
 .pj_data {
 	font-size:8pt;
+	font-weight:400;
 }
 
 
@@ -1001,6 +1006,7 @@ li {
     height: 12rem;
     margin-bottom: 25vw;
     font-size:8pt;
+    font-weight:400;
 }
 
 
@@ -1012,10 +1018,12 @@ li {
 
 .skills_type {
 	font-size: 12pt;
+	font-weight:400;
 }
 
 .skill_content {
     font-size: 8pt;
+    font-weight:400;
 }
 
 .contact_inline {
@@ -1036,6 +1044,7 @@ li {
     font-size: 8pt;
     bottom: 0;
     position: absolute;
+    font-weight:400;
     
 }
 .space_5rem {
