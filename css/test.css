@@ -860,7 +860,7 @@ li {
 	height: 390px;
 }
 #test3 {
-	height: 790vw;
+	height: 810vw;
 }
 
 #test4 {
@@ -883,7 +883,7 @@ li {
 }
 .slideBox {
 	width: 80%;
-    height: 42.5rem;
+    height: 43.5rem;
     position:relative;
 }
 
@@ -963,7 +963,7 @@ li {
     height: auto;
     left: 0;
     position: absolute;
-    top: 82vw;
+    top: 85vw;
     font-size:8pt;
 
 }
@@ -1008,6 +1008,10 @@ li {
 
 .skills_type {
 	font-size: 12pt;
+}
+
+.skill_content {
+    font-size: 8pt;
 }
 
 .contact_inline {
