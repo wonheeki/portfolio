@@ -851,7 +851,7 @@ li {
 }
 
 .aboutme_data {
-	font-family: s-core3;
+	font-family: s-core4;
 	font-size: 8pt;
 	margin-top: 0.5rem;
 }
@@ -870,7 +870,7 @@ li {
 }
 
 #test3 {
-	height: 2900px;
+	height: 2870px;
 }
 
 #test4 {
@@ -973,18 +973,18 @@ li {
     height: auto;
     left: 0;
     position: absolute;
-    top: 85vw;
-    font-size:7pt;
+    top: 80vw;
+    font-size:8pt;
 
 }
 
 
 .pj_hd {
-    font-size:7pt;
+    font-size:8pt;
 }
 
 .pj_data {
-	font-size:7pt;
+	font-size:8pt;
 }
 
 
@@ -1033,10 +1033,10 @@ li {
 
 .arrow {
   width: 4rem;
-    border: 2px solid #fefefe;
+    border: 1px solid #fefefe;
     height: 1.5rem;
     font-size: 8pt;
-    bottom: -10vw;
+    bottom: -8vw;
     position: absolute;
     
 }
