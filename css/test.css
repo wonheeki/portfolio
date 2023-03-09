@@ -723,6 +723,10 @@ li {
 
 @media screen and (max-width: 800px) {
 
+.body{
+	font-weight: 400;
+}
+
 .main {
     height: 100vh;
 }
@@ -963,7 +967,7 @@ li {
     height: auto;
     left: 0;
     position: absolute;
-    top: 85vw;
+    top: 82vw;
     font-size:8pt;
 
 }
