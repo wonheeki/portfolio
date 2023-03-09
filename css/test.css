@@ -728,7 +728,7 @@ li {
 }
 
 #title {
-	 position: sticky;
+	/*  position: sticky; */
     LEFT: 10%;
     font-size: 14vw;
     text-align: left;
@@ -860,7 +860,7 @@ li {
 	height: 390px;
 }
 #test3 {
-	height: 2970px;
+	height: 3020px;
 }
 
 #test4 {
