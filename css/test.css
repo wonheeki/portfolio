@@ -63,6 +63,8 @@ body {
 	overflow-x: hidden;
 	overflow-y: scroll;
 	background-color: black;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight:300;
 }
 
 li {
@@ -115,28 +117,25 @@ li {
 	color: #fefefe;
 	left: 10%;
 	bottom: 8vw;
-	font-family: s-core3;
+	font-family: 'Noto Sans KR';
 	font-size: 8pt;
 }
 
-#contact_title {
-	font-size: 12pt;
-}
 
 #version {
 	position: absolute;
-	top: 8vw;
-	left: 11.5%;
-	font-size: 8pt;
-	display: inline-block;
-	font-family: s-core3;
-	margin-left: 1vw;
-	color: #fefefe;
+    top: 7.9vw;
+    left: 11.5%;
+    font-size: 8pt;
+    display: inline-block;
+    font-family: 'Noto Sans KR';
+    margin-left: 1vw;
+    color: #fefefe;
 }
 
 #fav_icon {
 	position: absolute;
-	width: 1.5rem;
+	width: 1.4rem;
     top: 8vw;
     left: 10%;
 }
@@ -146,7 +145,7 @@ li {
 	bottom: 8vw;
 	right: 10%;
 	color: #fefefe;
-	font-family: s-core3;
+	font-family: 'Noto Sans KR';
 	font-size: 8pt;
 	text-align: right;
 }
@@ -239,17 +238,16 @@ li {
 
 .hashtag {
 	color: #fefefe;
-	font-family: s-core6;
 	font-size: 18pt;
 	float: left;
 	position: absolute;
 	left: 12%;
+	font-weight: 600;
 }
 
 .hash_ex{
 	font-size:10pt;
 	color:gray;
-	font-family: s-core4;
 	position:absolute;
 	left:12%;
 	margin-top:3rem;
@@ -264,17 +262,16 @@ li {
 .point_div {
 	float: left;
     background-color: #FF4F32;
-    height: 25px;
+    height: 22px;
     width: 0.4rem;
     left: 10%;
     position: absolute;
-    margin-top: 4px;
+    margin-top: 8px;
 }
 
 .introduce {
 	color: #fefefe;
-	font-size: 25pt;
-	font-family: s-core6;
+	font-size: 22pt;
 	position: absolute;
 	left: 10%;
 	margin-top: 7rem;
@@ -286,14 +283,12 @@ li {
 }
 
 .aboutme_hd {
-	font-family: s-core4;
 	color:#fefefe;
 	font-size: 12pt;
 	margin-top: 0.5rem;
 }
 
 .aboutme_data {
-	font-family: s-core3;
 	font-size: 12pt;
 	margin-top: 0.5rem;
 	color:#fefefe;
@@ -350,8 +345,7 @@ li {
 	bottom: 0;
 	color: #fefefe;
 	background-color: black;
-	font-family: s-core3;
-	font-size: 9pt;
+	font-size: 10pt;
 }
 
 
@@ -528,13 +522,11 @@ li {
 
 .pj_title {
 	font-size: 15pt;
-	font-family: s-core4;
 	color: #fefefe;
 	text-align: left;
 }
 
 .pj_date {
-	font-family: s-core4;
 	font-size: 10pt;
 	color: gray;
 	text-align: left;
@@ -546,8 +538,7 @@ li {
 	right: 0;
 	position: absolute;
 	top:0;
-	font-size: 1vw;
-    font-family: s-core4;
+	font-size: 10pt;
     color: #fefefe;
     text-align: left;
     letter-spacing: 2px;
@@ -560,17 +551,15 @@ li {
 }
 
 .pj_hd {
-	font-family: s-core4;
     color: #fefefe;
-    font-size: 1vw;
+    font-size: 10pt;
     margin-top: 0.5rem;
     width: 35%;
     float: left;
 }
 
 .pj_data {
-	font-family: s-core3;
-    font-size: 1vw;
+    font-size: 10pt;
     margin-top: 0.5rem;
     color: #fefefe;
     width: 65%;
@@ -600,7 +589,6 @@ li {
     width: 20rem;
     height: 15rem;
     background-color: #fefefe;
-    font-family:s-core4;
     position:relative;
 	text-align: left;
     color: #fefefe;
@@ -622,7 +610,6 @@ li {
 
 .skills_type {
 	font-size: 14pt;
-	font-family: s-core4;
 	color: white;
 	position:absolute;
 	top: 50%;
@@ -631,10 +618,10 @@ li {
 }
 .skill_content{
 	position: relative;
+	font-size:10pt;
 }
 
 .highlight{
-	font-family: s-core4;
 	color: white;
 	position:absolute;
 
@@ -716,7 +703,6 @@ li {
 .arrow {
   text-decoration: none;
     color: #fefefe;
-    font-family: s-core4;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -762,7 +748,6 @@ li {
 	}
 .flow_banner .list {display: flex;}
 .flow_banner .list > li {
-	font-family: 's-core4';
     font-size: 8pt;
     color: #fefefe;
     width: 57vw;
@@ -807,7 +792,6 @@ li {
 	position: absolute;
 	top: 50%;
 	transform: translate(0, -50%);
-	font-family: s-core6;
 	font-size: 16pt;
 	/* width:100%;
 	margin:0; */
@@ -819,9 +803,9 @@ li {
 }
 
 .point_div {
-    height: 20px;
+    height: 18px;
     width: 0.3rem;
-    margin-top: 4px;
+    margin-top: 7px;
 }
 
 .hashtag {
@@ -840,10 +824,14 @@ li {
 
 .introduce {
 	font-size: 20pt;
-	font-family: s-core5;
-	margin-top: 8rem;
+	margin-top: 5rem;
 }
 
+.background1 {
+       width: 100%;
+    height: 23rem;
+    filter: brightness(0.7);
+}
 
 .aboutme_hd {
 	font-size: 8pt;
@@ -851,7 +839,6 @@ li {
 }
 
 .aboutme_data {
-	font-family: s-core4;
 	font-size: 8pt;
 	margin-top: 0.5rem;
 }
@@ -859,18 +846,21 @@ li {
 .aboutme_div1 {
 	width: 5rem;
 	height: 10rem;
-	margin-top: 11.5rem;
+	margin-top: 7.5rem;
 }
 
 .aboutme_div2 {
 	width: 15rem;
 	height: 10rem;
 	left: 30%;
-	margin-top: 11.5rem;
+	margin-top: 7.5rem;
 }
 
+#test2 {
+	height: 390px;
+}
 #test3 {
-	height: 770vw;
+	height: 790vw;
 }
 
 #test4 {
@@ -973,7 +963,7 @@ li {
     height: auto;
     left: 0;
     position: absolute;
-    top: 80vw;
+    top: 82vw;
     font-size:8pt;
 
 }
@@ -1032,11 +1022,11 @@ li {
 }
 
 .arrow {
-  width: 4rem;
+  width: 100%;
     border: 1px solid #fefefe;
     height: 1.5rem;
     font-size: 8pt;
-    bottom: -8vw;
+    bottom: 0;
     position: absolute;
     
 }
