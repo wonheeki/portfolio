@@ -743,8 +743,8 @@ li {
 
 #title {
 	 position: sticky;
-    margin: 0 auto;
-    font-size: 3rem;
+    LEFT: 10%;
+    font-size: 3.4rem;
     text-align: left;
     width: 17rem;
 }
@@ -870,7 +870,7 @@ li {
 }
 
 #test3 {
-	height: 2870px;
+	height: 2900px;
 }
 
 #test4 {
