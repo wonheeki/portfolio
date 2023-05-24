@@ -726,8 +726,9 @@ li {
 .flow_banner .list > li {
     font-size: 8pt;
     color: #fefefe;
-    width: 57vw;
+    width: 65vw;
     line-height:0;
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 3px #fff, 0 0 1px #ff4f32, 0 0 1px #ff4f32, 0 0 1px #ff4f32, 0 0 1px #ff4f32, 0 0 1px #ff4f32;
 }
 @keyframes flowRolling {
     0% {
@@ -840,7 +841,7 @@ li {
 	height: 390px;
 }
 #test3 {
-	height: 3210px;
+	height: 2480px;
 }
 
 #test4 {
