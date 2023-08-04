@@ -21,12 +21,12 @@ $(function(){
 	FirstSlide();
 	SecondSlide();
 	ThirdSlide();
-	FourthSlide();
+/*	FourthSlide();*/
 	
 	FirstSlide_m();
 	SecondSlide_m();
 	ThirdSlide_m();
-	FourthSlide_m();
+/*	FourthSlide_m();*/
 	
 
 });
@@ -164,7 +164,7 @@ function ThirdSlide(){
 }
 
 
-function FourthSlide(){
+/*function FourthSlide(){
 	const slides = document.querySelector('#slides4'); //전체 슬라이드 컨테이너
 	const slideImg = document.querySelectorAll('#slides4 li'); //모든 슬라이드들
 	let currentIdx = 0; //현재 슬라이드 index
@@ -189,7 +189,7 @@ function FourthSlide(){
 			moveSlide(currentIdx + 1);
 		}
 	});
-}
+}*/
 
 
 function FirstSlide_m(){
@@ -206,7 +206,7 @@ function FirstSlide_m(){
 	slides.style.width = (slideWidth + slideMargin) * slideCount + '%';
 
 	function moveSlide(num) {
-	  slides.style.left = -num * 102 + '%';
+	  slides.style.left = -num * 105.5 + '%';
 	  currentIdx = num;
 	}
 	prev.addEventListener('click', function () {
@@ -233,7 +233,7 @@ function SecondSlide_m(){
 	slides.style.width = (slideWidth + slideMargin) * slideCount + '%';
 
 	function moveSlide(num) {
-	  slides.style.left = -num * 102 + '%';
+	  slides.style.left = -num * 105.5 + '%';
 	  currentIdx = num;
 	}
 	prev.addEventListener('click', function () {
@@ -260,7 +260,7 @@ function ThirdSlide_m(){
 	slides.style.width = (slideWidth + slideMargin) * slideCount + '%';
 
 	function moveSlide(num) {
-	  slides.style.left = -num * 102 + '%';
+	  slides.style.left = -num * 105.5 + '%';
 	  currentIdx = num;
 	}
 	prev.addEventListener('click', function () {
@@ -274,7 +274,7 @@ function ThirdSlide_m(){
 }
 
 
-function FourthSlide_m(){
+/*function FourthSlide_m(){
 	const slides = document.querySelector('#slides4_m'); //전체 슬라이드 컨테이너
 	const slideImg = document.querySelectorAll('#slides4_m li'); //모든 슬라이드들
 	let currentIdx = 0; //현재 슬라이드 index
@@ -299,4 +299,4 @@ function FourthSlide_m(){
 			moveSlide(currentIdx + 1);
 		}
 	});
-}
+}*/
